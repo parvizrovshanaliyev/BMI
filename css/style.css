@@ -1,0 +1,115 @@
+body {
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body section form {
+  box-shadow: -1px 4px 20px -0.8px;
+  margin: auto;
+  width: 40rem;
+  height: 40rem;
+  background-color: #F5F5F5;
+  text-align: left;
+  line-height: 1.2;
+  font-weight: 400;
+  font-size: 14px;
+  color: #626262;
+  position: relative;
+  margin-top: 6rem;
+  /* #region //header */
+  /* #endregion */
+  /* #region info */
+  /* #endregion */
+  /* #region  */
+  /* #endregion */
+}
+body section form .headerForm {
+  background-color: #4ebd4a;
+  border-top: 1px solid #A7D065;
+  padding: 15px 20px;
+  color: #fff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-weight: 300;
+  font-size: 32px;
+  margin: 0;
+  text-align: center;
+}
+body section form #info {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body section form #info .titlepart {
+  padding: 26px 24px;
+}
+body section form #info .titlepart .part {
+  margin: 1.5rem;
+  border-top: 1px solid #3c9b39;
+  height: 0;
+  text-align: center;
+  margin-bottom: 110px;
+  /* #region SPAN header */
+  /* #endregion */
+  /* #region input ve buttonlar */
+  /* #endregion */
+}
+body section form #info .titlepart .part span {
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  padding: 0 1rem;
+  background-color: #F5F5F5;
+  color: #4ebd4a;
+  top: -10px;
+}
+body section form #info .titlepart .part .inputboxbtn {
+  margin-top: 17px;
+  display: flex;
+  /* #region INPUT */
+  /* #endregion */
+}
+body section form #info .titlepart .part .inputboxbtn input {
+  box-shadow: 0px 0px 9px;
+  height: 37px;
+  width: 301px;
+  padding: 7px;
+  border-radius: 16px 16px 22px 12px;
+}
+body section form #info .titlepart .part .inputboxbtn .btns {
+  display: flex;
+  padding: 0 0px;
+}
+body section form #info .titlepart .part .inputboxbtn .btns button {
+  box-sizing: border-box;
+  font-size: 10px;
+  width: 74px;
+  box-sizing: inherit;
+  margin-left: 10px;
+}
+body section form #result .restitle {
+  padding: 26px 24px;
+}
+body section form #result .restitle .part {
+  margin: 1.5rem;
+  border-top: 1px solid #3c9b39;
+  height: 0;
+  text-align: center;
+  margin-bottom: 110px;
+}
+body section form #result .restitle .part span {
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  padding: 0 1rem;
+  background-color: #F5F5F5;
+  color: #4ebd4a;
+  top: -10px;
+}

@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>BMI</title>
+</head>
+
+<body>
+
+    <section>
+        <div class="container">
+            <form action="" class="bmi">
+                <!-- #region HEADER BMI -->
+                <div class="headerForm">Body Mass Index (BMI)</div>
+                <!-- #endregion -->
+                <!-- #region INFO -->
+                 <!-- #region INFO -->
+                 <div id="info"   class="show">
+                        <div class="titlepart">
+                            <!-- #region ROW_1 -->
+                            <div class="row">
+    
+                                <div class="col-md-12">
+                                    <div class="part">
+                                        <span> Age and Gender</span>
+                                        <div class="inputboxbtn">
+                                            <!-- #region input -->
+                                            <div class="col-md-8">
+                                                <input id="age" placeholder="Age" required name="age"  type="text">
+                                            </div>
+                                            <!-- #endregion -->
+                                            <!-- #region buttons -->
+                                            <div class="col-md-4 btns">
+                                                <button class="btn btn-success">Male</button>
+                                                <button class="btn btn-success">Female</button>
+    
+                                            </div>
+                                            <!-- #endregion -->
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                            <!-- #endregion -->
+                            <!-- #region ROW_2 -->
+                            <div class="row">
+    
+                                <div class="col-md-12">
+                                    <div class="part">
+                                        <span>height</span>
+                                        <div class="inputboxbtn">
+                                            <!-- #region input -->
+                                            <div class="col-md-8">
+                                                <input id="height" required placeholder="Height"  name="height"
+                                                    type="text">
+                                            </div>
+                                            <!-- #endregion -->
+                                            <!-- #region buttons -->
+                                            <div class="col-md-4 btns">
+    
+                                                <button class="btn btn-success">Inches</button>
+    
+                                                <button class="btn btn-success">Centimetres</button>
+                                            </div>
+                                            <!-- #endregion -->
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                            <!-- #endregion -->
+                            <!-- #region ROW_3 -->
+                            <div class="row">
+    
+                                <div class="col-md-12">
+                                    <div class="part">
+                                        <span>Weight</span>
+                                        <div class="inputboxbtn">
+                                            <!-- #region input -->
+                                            <div class="col-md-8">
+                                                <input id="weight" placeholder="Weight"   type="text">
+                                            </div>
+                                            <!-- #endregion -->
+                                            <!-- #region buttons -->
+                                            <div class="col-md-4 btns">
+                                                <button class="btn btn-success">Pounds</button>
+                                                <button class="btn btn-success">Kilograms</button>
+    
+                                            </div>
+                                            <!-- #endregion -->
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                            <!-- #endregion -->
+                        </div>
+    
+                        <!-- #region calcbtn -->
+                        <button id="calc" style="margin-left: 79px; position:absolute; z-index: 1;" class="btn btn-success" >Calculate</button>
+                        
+                        <!-- #endregion -->
+    
+                    </div>
+                <!-- #endregion -->
+
+                <!-- #region RESULT burada result olacax -->
+                <div id="result">
+
+                   
+                    <!-- #region calcbtn -->
+                    <button id="back" style="margin-left: 79px;margin-top:0px;" class="btn btn-success" >BACK</button>
+                    
+                    <!-- #endregion -->
+                </div>
+                <!-- #endregion -->
+
+
+            </form>
+        </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="javascript/app.js"></script>
+</body>
+
+</html>
